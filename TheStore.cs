@@ -24,6 +24,8 @@ namespace Odnalaz
                     case "p":
                         LagerAnzeigen();
                         break;
+                    case "e":
+                        return;
                     default:
                         break;
                 }
@@ -36,6 +38,7 @@ namespace Odnalaz
             Console.WriteLine("ODNALAZ: Online-Shopping");
             Console.WriteLine("------------------------");
             Console.WriteLine("Produkte anzeigen: p");
+            Console.WriteLine("Programende:       e");
 
             string sEingang = Console.ReadLine();
             return sEingang.ToLower();
