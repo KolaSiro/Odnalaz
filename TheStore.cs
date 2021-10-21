@@ -48,7 +48,7 @@ namespace Odnalaz
         {                        
             produkte.Add( new Produkt() { Name = "Hose", Preis = 75f, Gruppe = ProdukteGruppe.BEKLEIDUNG }) ;
             produkte.Add(new Produkt() { Name = "T-Shirt", Preis = 45f, Gruppe = ProdukteGruppe.BEKLEIDUNG });
-            produkte.Add(new Produkt() { Name = "Adidas", Preis = 180.75f, Gruppe = ProdukteGruppe.SCHUHE });
+            produkte.Add(new Produkt() { Name = "Adidas Rom", Preis = 180.75f, Gruppe = ProdukteGruppe.SCHUHE });
         }
 
         /// <summary>
