@@ -21,7 +21,7 @@ namespace Odnalaz
             {
                 switch(MenuAnzeigen())
                 {
-                    case "p":
+                    case "a":
                         LagerAnzeigen();
                         break;
                     case "e":
@@ -37,7 +37,7 @@ namespace Odnalaz
             Console.WriteLine("------------------------");
             Console.WriteLine("ODNALAZ: Online-Shopping");
             Console.WriteLine("------------------------");
-            Console.WriteLine("Produkte anzeigen: p");
+            Console.WriteLine("Produkte anzeigen: a");
             Console.WriteLine("Programende:       e");
 
             string sEingang = Console.ReadLine();
