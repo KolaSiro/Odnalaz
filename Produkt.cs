@@ -20,6 +20,11 @@
         /// </summary>
         public ProdukteGruppe Gruppe { get; set; }
 
+        /// <summary>
+        /// Produkte-Groesse: z.B. M, XL, oder 36, 41
+        /// </summary>
+        public string Groesse { get; set; }
+
 
         /// <summary>
         /// Konstruktor
@@ -32,6 +37,21 @@
             this.Name = sName;
             this.Preis = fPreis;
             this.Gruppe = eGruppe;
+        }
+
+        /// <summary>
+        /// Konstruktor
+        /// </summary>
+        /// <param name="sName">Produktname</param>
+        /// <param name="fPreis">Produktpreis</param>
+        /// <param name="eGruppe">Produktegruppe</param>
+        /// <param name="sGroesse"Produktgroesse</param>
+        public Produkt(string sName, float fPreis, ProdukteGruppe eGruppe, string sGroesse)
+        {
+            this.Name = sName;
+            this.Preis = fPreis;
+            this.Gruppe = eGruppe;
+            this.Groesse = sGroesse;
         }
     }
 }
