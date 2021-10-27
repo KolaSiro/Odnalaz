@@ -20,11 +20,6 @@
         /// </summary>
         public ProdukteGruppe Gruppe { get; set; }
 
-        /// <summary>
-        /// Standard-Konstruktor
-        /// </summary>
-        public Produkt()
-        { }
 
         /// <summary>
         /// Konstruktor
