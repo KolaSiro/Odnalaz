@@ -9,8 +9,15 @@ namespace Odnalaz
     /// </summary>
     class TheStore
     {
+        /// <summary>
+        /// Liste mit Produkten
+        /// </summary>
         private static List<Produkt> produkte = new List<Produkt>();
 
+        /// <summary>
+        /// Haupteinstiegsfunktion
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
            
@@ -32,6 +39,10 @@ namespace Odnalaz
             }
         }
 
+        /// <summary>
+        /// Hauptmenu anzeigen
+        /// </summary>
+        /// <returns></returns>
         static string MenuAnzeigen()
         {
             Console.WriteLine("------------------------");
@@ -62,7 +73,7 @@ namespace Odnalaz
         private static void LagerAnzeigen()
         {
             Console.WriteLine("Filterung nach Produktegruppen");
-            Console.WriteLine("Bekleidung: b");
+            Console.WriteLine("Kleidung  : k");
             Console.WriteLine("Schuhe    : s");
             Console.WriteLine("Schmuck   : m");
             Console.WriteLine("Alle      : a");
@@ -73,7 +84,7 @@ namespace Odnalaz
 
             switch(sAuswahl)
             {
-                case "b": grp = ProdukteGruppe.BEKLEIDUNG; break;
+                case "k": grp = ProdukteGruppe.BEKLEIDUNG; break;
                 case "s": grp = ProdukteGruppe.SCHUHE; break;
                 case "m": grp = ProdukteGruppe.SCHMUCK; break;
                 case "a": grp = ProdukteGruppe.NONE; break;

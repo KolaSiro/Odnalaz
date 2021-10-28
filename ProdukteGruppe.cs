@@ -2,6 +2,7 @@
 {
     /// <summary>
     /// Produktegruppen
+    /// NONE = keiner Produktegruppe zugeordnet.
     /// </summary>
     public enum ProdukteGruppe
     {
