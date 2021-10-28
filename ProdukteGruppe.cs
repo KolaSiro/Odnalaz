@@ -5,6 +5,6 @@
     /// </summary>
     public enum ProdukteGruppe
     {
-        BEKLEIDUNG, SCHUHE
+        NONE, BEKLEIDUNG, SCHUHE, SCHMUCK
     }
 }
