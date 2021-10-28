@@ -49,9 +49,9 @@ namespace Odnalaz
         /// </summary>
         private static void Lager()
         {           
-            produkte.Add(new Produkt("Hose", 75f, ProdukteGruppe.BEKLEIDUNG));
-            produkte.Add(new Produkt("T-Shirt", 45f, ProdukteGruppe.BEKLEIDUNG));
-            produkte.Add(new Produkt("Adidas Rom", 180.75f, ProdukteGruppe.SCHUHE));
+            produkte.Add(new Produkt("Hose", 75f, ProdukteGruppe.BEKLEIDUNG, "M"));
+            produkte.Add(new Produkt("T-Shirt", 45f, ProdukteGruppe.BEKLEIDUNG, "S"));
+            produkte.Add(new Produkt("Adidas Rom", 180.75f, ProdukteGruppe.SCHUHE, "42"));
         }
 
         /// <summary>

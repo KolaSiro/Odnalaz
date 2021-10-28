@@ -25,20 +25,6 @@
         /// </summary>
         public string Groesse { get; set; }
 
-
-        /// <summary>
-        /// Konstruktor
-        /// </summary>
-        /// <param name="sName">Produktname</param>
-        /// <param name="fPreis">Produktpreis</param>
-        /// <param name="eGruppe">Produktegruppe</param>
-        public Produkt(string sName, float fPreis, ProdukteGruppe eGruppe)
-        {
-            this.Name = sName;
-            this.Preis = fPreis;
-            this.Gruppe = eGruppe;
-        }
-
         /// <summary>
         /// Konstruktor
         /// </summary>
