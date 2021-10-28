@@ -9,8 +9,15 @@ namespace Odnalaz
     /// </summary>
     class TheStore
     {
+        /// <summary>
+        /// Liste mit Produkten
+        /// </summary>
         private static List<Produkt> produkte = new List<Produkt>();
 
+        /// <summary>
+        /// Haupteinstiegsfunktion
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
            
@@ -32,6 +39,10 @@ namespace Odnalaz
             }
         }
 
+        /// <summary>
+        /// Hauptmenu anzeigen
+        /// </summary>
+        /// <returns></returns>
         static string MenuAnzeigen()
         {
             Console.WriteLine("------------------------");
