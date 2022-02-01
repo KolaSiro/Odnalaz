@@ -4,7 +4,7 @@ using System.Collections.Generic;
 namespace Odnalaz
 {
     /// <summary>
-    /// [S I M U L A T I O N]
+    /// [S I M U L A T I O N E N]
     /// Odnalaz: Grosser, europaeischer online Kleider- und Schuhe Laden
     /// </summary>
     class TheStore

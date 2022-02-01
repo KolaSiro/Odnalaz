@@ -1,7 +1,7 @@
 ﻿namespace Odnalaz
 {
     /// <summary>
-    /// Produktegruppen
+    /// Produktegruppen List
     /// NONE = keiner Produktegruppe zugeordnet.
     /// </summary>
     public enum ProdukteGruppe
