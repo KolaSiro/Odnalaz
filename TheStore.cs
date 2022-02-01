@@ -65,6 +65,7 @@ namespace Odnalaz
             produkte.Add(new Produkt("Adidas Rom", 180.75f, ProdukteGruppe.SCHUHE, "42"));
             produkte.Add(new Produkt("Halskette Schmudlinsky", 550.00f, ProdukteGruppe.SCHMUCK, "kurz"));
             produkte.Add(new Produkt("Ohringe 2 Stk. silber", 175.80f, ProdukteGruppe.SCHMUCK, "3 cm"));
+            produkte.Add(new Produkt("Vans", 50.0f, ProdukteGruppe.SCHUHE, "47"));
         }
 
         /// <summary>
