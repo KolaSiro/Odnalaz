@@ -1,7 +1,7 @@
 ﻿namespace Odnalaz
 {
     /// <summary>
-    /// Produktegruppen
+    /// Produktegruppen!
     /// </summary>
     public enum ProdukteGruppe
     {
