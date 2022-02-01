@@ -1,5 +1,6 @@
 ﻿namespace Odnalaz
 {
+    /// test
     /// <summary>
     /// Basisklasse von allen Produkten
     /// </summary>
