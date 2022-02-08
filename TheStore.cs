@@ -46,7 +46,7 @@ namespace Odnalaz
 
         /// <summary>
         /// Lager mit Stammdaten befüllen.
-        /// </summary>
+        /// </summary>        
         private static void Lager()
         {                        
             produkte.Add( new Produkt() { Name = "Hose", Preis = 75f, Gruppe = ProdukteGruppe.BEKLEIDUNG }) ;
