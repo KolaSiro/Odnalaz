@@ -1,11 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31729.503
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Odnalaz", "Odnalaz.csproj", "{460C1BE3-1E8E-41F8-8E6F-D68CFDA86EEE}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Odnalaz.Test", "..\Odnalaz.Test\Odnalaz.Test.csproj", "{9786D4C2-54A3-401B-9DA1-6F1B49DDC890}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +15,6 @@ Global
 		{460C1BE3-1E8E-41F8-8E6F-D68CFDA86EEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{460C1BE3-1E8E-41F8-8E6F-D68CFDA86EEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{460C1BE3-1E8E-41F8-8E6F-D68CFDA86EEE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9786D4C2-54A3-401B-9DA1-6F1B49DDC890}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9786D4C2-54A3-401B-9DA1-6F1B49DDC890}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9786D4C2-54A3-401B-9DA1-6F1B49DDC890}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9786D4C2-54A3-401B-9DA1-6F1B49DDC890}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
