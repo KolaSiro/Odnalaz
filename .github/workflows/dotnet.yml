@@ -10,6 +10,9 @@ jobs:
   build:
    
     runs-on: windows-latest
+    
+    env:
+      Solution_Name: Odnalaz
 
     env:
       Solution_Name: Odnalaz
