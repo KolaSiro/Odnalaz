@@ -77,6 +77,7 @@ namespace Odnalaz
             Console.WriteLine("Kleidung  : k");
             Console.WriteLine("Schuhe    : s");
             Console.WriteLine("Schmuck   : m");
+            Console.WriteLine("Beauty    : b");
             Console.WriteLine("Alle      : a");
 
             var sAuswahl = Console.ReadLine().ToLower().Trim();
@@ -88,6 +89,7 @@ namespace Odnalaz
                 case "k": grp = ProdukteGruppe.BEKLEIDUNG; break;
                 case "s": grp = ProdukteGruppe.SCHUHE; break;
                 case "m": grp = ProdukteGruppe.SCHMUCK; break;
+                case "b": grp = ProdukteGruppe.BEAUTY; break;
                 case "a": grp = ProdukteGruppe.NONE; break;
                 default: break;
             }
