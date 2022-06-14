@@ -13,6 +13,7 @@ jobs:
     
     env:
       Solution_Name: Odnalaz
+      Test_Project_Path: .\Odnalaz.Test
     
 
     steps:
