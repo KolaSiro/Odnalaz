@@ -66,6 +66,9 @@ namespace Odnalaz
             produkte.Add(new Produkt("Halskette Schmudlinsky", 550.00f, ProdukteGruppe.SCHMUCK, "kurz"));
             produkte.Add(new Produkt("Ohringe 2 Stk. silber", 175.80f, ProdukteGruppe.SCHMUCK, "3 cm"));
             produkte.Add(new Produkt("Vans", 50.0f, ProdukteGruppe.SCHUHE, "47"));
+            produkte.Add(new Produkt("Redken Extreme", 28.50f,ProdukteGruppe.BEAUTY, "400ml"));
+            produkte.Add(new Produkt("Redken Soft", 18.50f, ProdukteGruppe.BEAUTY, "250ml"));
+            produkte.Add(new Produkt("Schwarzkopf Black&Grey", 9.75f, ProdukteGruppe.BEAUTY, "200ml"));
         }
 
         /// <summary>
