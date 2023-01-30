@@ -66,6 +66,11 @@ namespace Odnalaz
             produkte.Add(new Produkt("Halskette Schmudlinsky", 550.00f, ProdukteGruppe.SCHMUCK, "kurz"));
             produkte.Add(new Produkt("Ohringe 2 Stk. silber", 175.80f, ProdukteGruppe.SCHMUCK, "3 cm"));
             produkte.Add(new Produkt("Vans", 50.0f, ProdukteGruppe.SCHUHE, "47"));
+            produkte.Add(new Produkt("Cowboyhut Jack", 93.0f, ProdukteGruppe.HUTE, "L"));
+            produkte.Add(new Produkt("Cabriolet Haube", 149.0f, ProdukteGruppe.HUTE, "M"));
+            produkte.Add(new Produkt("Sutton Ledercap", 89.0f, ProdukteGruppe.HUTE, "S"));
+            produkte.Add(new Produkt("Ledermütze", 79.0f, ProdukteGruppe.HUTE, "M"));
+            produkte.Add(new Produkt("Cowboyhut Reno", 79.0f, ProdukteGruppe.HUTE, "XL"));
         }
 
         /// <summary>
@@ -75,6 +80,7 @@ namespace Odnalaz
         {
             Console.WriteLine("Filterung nach Produktegruppen");
             Console.WriteLine("Kleidung  : k");
+            Console.WriteLine("Hüte      : h");
             Console.WriteLine("Schuhe    : s");
             Console.WriteLine("Schmuck   : m");
             Console.WriteLine("Alle      : a");
