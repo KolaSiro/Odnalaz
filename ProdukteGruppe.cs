@@ -1,11 +1,14 @@
-﻿namespace Odnalaz
+﻿using System;
+
+namespace Odnalaz
 {
     /// <summary>
     /// Produktegruppen List
     /// NONE = keiner Produktegruppe zugeordnet.
     /// </summary>
+    [Flags]
     public enum ProdukteGruppe
     {
-        NONE, BEKLEIDUNG, SCHUHE, SCHMUCK, BEAUTY
+        NONE = 0, BEKLEIDUNG = 1, SCHUHE = 2, SCHMUCK = 4, BEAUTY = 8
     }
 }
