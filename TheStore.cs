@@ -20,7 +20,7 @@ namespace Odnalaz
         /// <param name="args"></param>
         private static void Main(string[] args)
         {
-            // Lager füllen
+            // Lager fuellen
             Lager();
 
             while (true)
@@ -57,7 +57,7 @@ namespace Odnalaz
         }
 
         /// <summary>
-        /// Lager mit Stammdaten befüllen.
+        /// Lager mit Stammdaten befuellen.
         /// </summary>
         private static void Lager()
         {
