@@ -5,6 +5,7 @@ namespace Odnalaz
     /// <summary>
     /// Produktegruppen List
     /// NONE = keiner Produktegruppe zugeordnet.
+    /// BEKLEIDUNG = Hosen, TShirts
     /// </summary>
     [Flags]
     public enum ProdukteGruppe
