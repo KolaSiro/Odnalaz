@@ -26,7 +26,8 @@
         public string Groesse { get; set; }
 
         /// <summary>
-        /// MwSt Mehrwertsteuersatz der Schweiz
+        /// MwSt Mehrwertsteuersatz der Schweiz 
+        /// (Stand 06.02.2024, Bitte anpassen in Zukunft)
         /// </summary>
         public float MwStSatz { get; set; }
 
