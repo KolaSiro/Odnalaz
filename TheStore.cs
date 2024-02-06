@@ -61,15 +61,15 @@ namespace Odnalaz
         /// </summary>
         private static void Lager()
         {
-            produkte.Add(new Produkt("Hose", 75f, ProdukteGruppe.BEKLEIDUNG, "M"));
-            produkte.Add(new Produkt("T-Shirt", 45f, ProdukteGruppe.BEKLEIDUNG, "S"));
-            produkte.Add(new Produkt("Adidas Rom", 180.75f, ProdukteGruppe.SCHUHE, "42"));
-            produkte.Add(new Produkt("Halskette Schmudlinsky", 550.00f, ProdukteGruppe.SCHMUCK, "kurz"));
-            produkte.Add(new Produkt("Ohringe 2 Stk. silber", 175.80f, ProdukteGruppe.SCHMUCK, "3 cm"));
-            produkte.Add(new Produkt("Vans", 50.0f, ProdukteGruppe.SCHUHE, "47"));
-            produkte.Add(new Produkt("Redken Extreme", 28.50f, ProdukteGruppe.BEAUTY, "400ml"));
-            produkte.Add(new Produkt("Redken Soft", 18.50f, ProdukteGruppe.BEAUTY, "250ml"));
-            produkte.Add(new Produkt("Schwarzkopf Black&Grey", 9.75f, ProdukteGruppe.BEAUTY, "200ml"));
+            produkte.Add(new Produkt("Hose", 75f, 75f, ProdukteGruppe.BEKLEIDUNG, "M"));
+            produkte.Add(new Produkt("T-Shirt", 45f, 45f, ProdukteGruppe.BEKLEIDUNG, "S"));
+            produkte.Add(new Produkt("Adidas Rom", 180.75f, 180.75f, ProdukteGruppe.SCHUHE, "42"));
+            produkte.Add(new Produkt("Halskette Schmudlinsky", 550.00f, 550.00f, ProdukteGruppe.SCHMUCK, "kurz"));
+            produkte.Add(new Produkt("Ohringe 2 Stk. silber", 175.80f, 175.80f, ProdukteGruppe.SCHMUCK, "3 cm"));
+            produkte.Add(new Produkt("Vans", 50.0f, 50.0f, ProdukteGruppe.SCHUHE, "47"));
+            produkte.Add(new Produkt("Redken Extreme", 28.50f, 28.50f, ProdukteGruppe.BEAUTY, "400ml"));
+            produkte.Add(new Produkt("Redken Soft", 18.50f, 18.50f, ProdukteGruppe.BEAUTY, "250ml"));
+            produkte.Add(new Produkt("Schwarzkopf Black&Grey", 9.75f, 9.75f, ProdukteGruppe.BEAUTY, "200ml"));
         }
 
         /// <summary>
@@ -105,17 +105,17 @@ namespace Odnalaz
                 // Filterung nach Produktegruppe
                 if (ProdukteGruppe.NONE == grp)
                 {
-                    Console.WriteLine(p.Name + ", " + p.Preis + ", " + p.Gruppe);
+                    Console.WriteLine(p.Name + ", " + p.fPreis + " CHF"  + ", " + p.ePreis + " EUR" + ", " + p.Gruppe);
                 }
                 else if (p.Gruppe.HasFlag(grp))
                 {
-                    Console.WriteLine(p.Name + ", " + p.Preis + ", " + p.Gruppe);
+                    Console.WriteLine(p.Name + ", " + p.fPreis + " CHF" + ", " + p.ePreis + " EUR" + ", " + p.Gruppe);
                 }
                 else if ( grp.HasFlag(ProdukteGruppe.BEKLEIDUNG | ProdukteGruppe.SCHUHE) )
                 {
                     if (p.Gruppe == ProdukteGruppe.BEKLEIDUNG || p.Gruppe == ProdukteGruppe.SCHUHE)
-                    Console.WriteLine(p.Name + ", " + p.Preis + ", " + p.Gruppe);
-                }               
+                        Console.WriteLine(p.Name + ", " + p.fPreis + " CHF" + ", " + p.ePreis + " EUR" + ", " + p.Gruppe);
+                }
                 else
                 {
                     // neue Produktegruppe oder Gruppierung muesste hier abgehandelt werden

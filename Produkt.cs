@@ -1,4 +1,6 @@
-﻿namespace Odnalaz
+﻿using System;
+
+namespace Odnalaz
 {
     /// <summary>
     /// Basisklasse von allen Produkten
@@ -13,7 +15,9 @@
         /// <summary>
         /// Preis eines Produkts
         /// </summary>
-        public float Preis { get; set; }
+        public float fPreis { get; set; }
+
+        public float ePreis { get; set; }
 
         /// <summary>
         /// Produkte-Gruppe, z.B. Schuhe, Kleider
@@ -37,10 +41,11 @@
         /// <param name="fPreis">Produktpreis</param>
         /// <param name="eGruppe">Produktegruppe</param>
         /// <param name="sGroesse"Produktgroesse</param>
-        public Produkt(string sName, float fPreis, ProdukteGruppe eGruppe, string sGroesse)
+        public Produkt(string sName, float fPreis,float feuroPreis, ProdukteGruppe eGruppe, string sGroesse)
         {
             this.Name = sName;
-            this.Preis = fPreis;
+            this.fPreis = fPreis;
+            this.ePreis = (float)Math.Round(feuroPreis / 100 * 105, 2);
             this.Gruppe = eGruppe;
             this.Groesse = sGroesse;
             this.MwStSatz = 8.1f;
