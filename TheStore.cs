@@ -89,6 +89,9 @@ namespace Odnalaz
 
             ProdukteGruppe grp = ProdukteGruppe.NONE;
 
+            /// <summary>
+            /// Gruppenauswahl der Produkte 
+            /// </summary>
             switch (sAuswahl)
             {
                 case "ks":grp = ProdukteGruppe.BEKLEIDUNG | ProdukteGruppe.SCHUHE; break;
