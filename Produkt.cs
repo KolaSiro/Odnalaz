@@ -26,7 +26,7 @@
         public string Groesse { get; set; }
 
         /// <summary>
-        /// MwSt Mehrwertsteuersatz der Schweiz
+        /// MwSt Mehrwertsteuersatz der Schweiz 
         /// </summary>
         public float MwStSatz { get; set; }
 
@@ -48,3 +48,5 @@
 
     }
 }
+
+//FEUTURE VON DENIS BEARBEITET
