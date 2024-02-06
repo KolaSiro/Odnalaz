@@ -26,6 +26,11 @@
         public string Groesse { get; set; }
 
         /// <summary>
+        /// MwSt
+        /// </summary>
+        public float MwStSatz { get; set; }
+
+        /// <summary>
         /// Konstruktor
         /// </summary>
         /// <param name="sName">Produktname</param>
@@ -38,6 +43,8 @@
             this.Preis = fPreis;
             this.Gruppe = eGruppe;
             this.Groesse = sGroesse;
+            this.MwStSatz = 8.1f;
         }
+
     }
 }
